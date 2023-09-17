@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h2 class="city-name">Philadelphia</h2>
+        <h1 class="temperature">73°F</h1>
+        <div class="weather-details">
+            <div>Showers</div>
+            <div>H:76° L:54°</div>
+        </div>
+        <div class="rectangle">
+            <img src="warning.png" alt="Warning Icon" class="warning-icon">
+            <span class="warning-text">
+                <strong>Warning:</strong> Forecasts show <u>thunderstorms</u> during your <em>Picnic at Clark Park</em> tomorrow at 3:00PM.
+            </span>
+        </div>
+
+        <div class="forecast-container">
+            <!-- Forecast for 12 PM -->
+            <div class="hourly-forecast">
+                <span class="time">Now</span>
+                <img src="shower.png" alt="Shower Icon" class="weather-icon">
+                <span class="temperature_hourly">73°</span>
+            </div>
+
+            <!-- Forecast for 1 PM -->
+            <div class="hourly-forecast">
+                <span class="time">1PM</span>
+                <img src="sunny.png" alt="Sunny Icon" class="weather-icon">
+                <span class="temperature_hourly">74°</span>
+            </div>
+
+            <!-- Forecast for 2 PM -->
+            <div class="hourly-forecast">
+                <span class="time">2PM</span>
+                <img src="sunny.png" alt="Sunny Icon" class="weather-icon">
+                <span class="temperature_hourly">75°</span>
+            </div>
+
+            <!-- Forecast for 3 PM -->
+            <div class="hourly-forecast">
+                <span class="time">3PM</span>
+                <img src="cloud.png" alt="Cloud Icon" class="weather-icon">
+                <span class="temperature_hourly">72°</span>
+            </div>
+
+            <!-- Forecast for 4 PM -->
+            <div class="hourly-forecast">
+                <span class="time">4PM</span>
+                <img src="cloud.png" alt="Cloud Icon" class="weather-icon">
+                <span class="temperature_hourly">70°</span>
+            </div>
+
+            <!-- Forecast for 5 PM -->
+            <div class="hourly-forecast">
+                <span class="time">5PM</span>
+                <img src="cloud.png" alt="Cloud Icon" class="weather-icon">
+                <span class="temperature_hourly">70°</span>
+            </div>
+
+            <!-- Forecast for 6 PM -->
+            <div class="hourly-forecast">
+                <span class="time">6PM</span>
+                <img src="cloud.png" alt="Cloud Icon" class="weather-icon">
+                <span class="temperature_hourly">69°</span>
+            </div>
+
+            <!-- Forecast for 7 PM -->
+            <div class="hourly-forecast">
+                <span class="time">7PM</span>
+                <img src="moon.png" alt="Moon Icon" class="weather-icon">
+                <span class="temperature_hourly">68°</span>
+            </div>
+
+
+        </div>
+        <div class="info-container">
+            <div class="info-box">
+                <div class="title-row">
+                    <img src="uv.svg" alt="Element Icon" class="element-icon">
+                    <span class="element-title">UV INDEX</span>
+                </div>
+                <div class="number">1</div>
+                <div class="label">Low</div>
+                <div class="description">More info</div>
+            </div>
+            <div class="info-box">
+                <div class="title-row">
+                    <img src="humidity.svg" alt="Element Icon" class="element-icon">
+                    <span class="element-title">Humidity</span>
+                </div>
+                <div class="number">72%</div>
+                <div class="label">High</div>
+                <div class="description">Dew point is 61°</div>
+            </div>
+            <div class="info-box">
+                <div class="title-row">
+                    <img src="pollen.svg" alt="Element Icon" class="element-icon">
+                    <span class="element-title">Pollen Count</span>
+                </div>
+                <div class="number">4.9</div>
+                <div class="label">Moderate</div>
+                <div class="description">More info</div>
+            </div>
+            <div class="info-box">
+                <div class="title-row">
+                    <img src="air.svg" alt="Element Icon" class="element-icon">
+                    <span class="element-title">Air Quality</span>
+                </div>
+                <div class="number">48</div>
+                <div class="label">Good</div>
+                <div class="description">More info</div>
+            </div>
+        </div>
+        <div class="live-feed-container">
+            <div class="live-feed-title">Live street view of conditions outside</div>
+            <div class="separator"></div>
+            <img src="feed.png" alt="Live Feed Image" class="live-feed-image">
+        </div>
+    </div>
+</body>
+</html>

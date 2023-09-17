@@ -1,0 +1,204 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: linear-gradient(#004483, #879AAB);
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.temperature {
+    font-size: 100px;
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.city-name {
+    font-size: 35px;
+    color: #f0f0f0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.weather-details > div {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.rectangle {
+    width: 360px;
+    height: 90px;
+    background-color: #3B80AE;
+    border-radius: 15px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+
+}
+
+.warning-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.warning-text {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.forecast-container {
+    width: 360px;
+    height: 90px;
+    background-color: #3B80AE;
+    border-radius: 15px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 12px;
+}
+
+.hourly-forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(360px / 8);
+    height: 90px;
+    color: white;
+}
+
+.time {
+    font-size: 14px;
+}
+
+.weather-icon {
+    width: 25px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+.temperature_hourly {
+    font-size: 20px;
+}
+
+
+.info-container {
+    width: 354px;
+    height: 110px;
+    background-color: #3B80AE;
+    border-radius: 15px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.info-box {
+    width: 80px;
+    height: 80px;
+    background-color: #CFEAFA;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.title-row {
+    display: flex;
+    align-items: left;
+    color: #5B5B5B;
+
+}
+
+.element-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+}
+
+.element-title {
+    font-size: 9px;
+}
+
+.number {
+    font-size: 26px;
+    text-align: center;
+    color: #001663;
+}
+
+.label {
+    font-size: 14px;
+    text-align: center;
+}
+
+.description {
+    font-size: 8px;
+    color: grey;
+    margin-left: 3px;
+}
+
+.live-feed-container {
+    width: 360px;
+    height: 400px;
+    background-color: #3B80AE;
+    border-radius: 15px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.live-feed-title {
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 95%;
+    padding-left: 10px;
+}
+
+.separator {
+    width: 95%;  /* Adjust width as necessary */
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.live-feed-image {
+    max-width: 95%;
+    flex-grow: 1;
+}
+
+
+@media screen and (max-width: 480px) {
+
+}
